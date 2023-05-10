@@ -35,7 +35,7 @@ def configure_data_keys(aws_configuration):
 
 def configure_csfle_session():
     auto_encryption_opts = AutoEncryptionOpts(
-        configuration.kms_providers, configuration.key_vault_namespace,crypt_shared_lib_path=configuration.crypt_shared_path)
+        configuration.kms_providers, configuration.key_vault_namespace)
     secure_client = MongoClient(configuration.connection_uri,auto_encryption_opts=auto_encryption_opts)        
     return secure_client
 

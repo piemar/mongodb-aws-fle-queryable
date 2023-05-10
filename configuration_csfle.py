@@ -1,7 +1,6 @@
 encrypted_namespace = "DEMO-AWS-FLE.users"
 key_vault_namespace = "DEMO-AWS-FLE.__keyVault"
 connection_uri = "mongodb+srv://<USER>:<PASSWORD>@<URL>/?retryWrites=true"
-crypt_shared_path="/usr/local/lib/mongo_crypt_v1.so"
 AWS_ACCESS_KEY_ID = "<AWS_ACCESS_ID>"
 AWS_SECRET_ACCESS_KEY="<AWS_SECRET_ACCESS_KEY>"
 AWS_KEY_REGION="eu-central-1"

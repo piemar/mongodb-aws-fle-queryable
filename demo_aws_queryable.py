@@ -40,7 +40,6 @@ def configure_queryable_session(encrypted_fields_schema):
         configuration.kms_providers,
         configuration.key_vault_namespace,
         encrypted_fields_map=encrypted_fields_schema, 
-        crypt_shared_lib_path=configuration.crypt_shared_path,   
         schema_map=None
         
     )
